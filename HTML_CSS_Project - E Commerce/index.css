@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    font-family: 'Flamenco', sans-serif;
+}
+body{
+    font-family: "Poppins", system-ui;
+    background-color: #f0efef;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+/* here there is li , so we used inline 
+if there is no li just a div tag , use these flex property
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 20px; */
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    color: rgb(56, 202, 227);
+    /* transition: ease-in; */
+}
+
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    justify-content: center;
+}
+.col2{
+    flex-basis: 50%;
+    min-height: 300px;
+}
+.col2 img{
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.col2 h1{
+    font-size: 45px;
+    line-height: 60px;
+}
+
+.btn{
+    display: inline-block;
+    background: #e36c5c;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #000000;
+}
+
+.header{
+    background: radial-gradient(white,rgb(134, 235, 235));
+    
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+.categories{
+    margin: 70px 0;
+}
+.col3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+    font-family: "Poppins", system-ui;;
+}
+
+.col3 img{
+    width: 100%;
+    /* border: 2px solid white ; */
+    /* margin: right 10px;
+    border:2px solid #000000;
+    fill: white; */
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.title{
+    color: rgb(233, 48, 48);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    text-decoration: underline black;
+}
+
+.last{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #000000;
+    color: white;
+}
+
+.last a{
+    color: #c8685b;
+}
+.last a:hover{
+    color: aqua;
+}
+
+.rightCorner{
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* padding-bottom: 20px; */
+}
+
+.body{
+    background: radial-gradient(white,rgb(134, 235, 235));
+    
+}
+
